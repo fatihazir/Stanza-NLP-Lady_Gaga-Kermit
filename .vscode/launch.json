@@ -1,0 +1,43 @@
+{
+    // Verwendet IntelliSense zum Ermitteln möglicher Attribute.
+    // Zeigen Sie auf vorhandene Attribute, um die zugehörigen Beschreibungen anzuzeigen.
+    // Weitere Informationen finden Sie unter https://go.microsoft.com/fwlink/?linkid=830387
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "type": "java",
+            "name": "PrologRunner",
+            "request": "launch",
+            "mainClass": "de.hnu.nlp.PrologRunner",
+            "projectName": "nlp"
+        },
+        {
+            "type": "java",
+            "name": "Word2VecPrep",
+            "request": "launch",
+            "mainClass": "de.hnu.nlp.Word2VecPrep",
+            "projectName": "symbolic"
+        },
+        {
+            "type": "java",
+            "name": "SimpleLanguageModel",
+            "request": "launch",
+            "mainClass": "de.hnu.nlp.SimpleLanguageModel",
+            "projectName": "symbolic"
+        },
+        {
+            "type": "java",
+            "name": "Current File",
+            "request": "launch",
+            "mainClass": "${file}"
+        },
+        {
+            "type": "java",
+            "name": "PrologRunner",
+            "request": "launch",
+            "mainClass": "de.hnu.nlp.PrologRunner",
+            "projectName": "symbolic",
+            "vmArgs": "-Djava.library.path=/opt/homebrew/Caskroom/miniconda/base/lib/python3.9/site-packages/jep"
+        }
+    ]
+}

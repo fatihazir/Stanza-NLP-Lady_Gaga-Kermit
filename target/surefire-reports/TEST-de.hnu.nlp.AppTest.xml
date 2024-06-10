@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report-3.0.xsd" version="3.0" name="de.hnu.nlp.AppTest" time="0.02" tests="1" errors="0" skipped="0" failures="0">
+  <properties>
+    <property name="awt.toolkit" value="sun.lwawt.macosx.LWCToolkit"/>
+    <property name="jdk.extensions.version" value="21.0.2.0"/>
+    <property name="java.specification.version" value="21"/>
+    <property name="file.encoding.pkg" value="sun.io"/>
+    <property name="sun.jnu.encoding" value="UTF-8"/>
+    <property name="java.class.path" value="/Users/pbrune/Library/Mobile Documents/com~apple~CloudDocs/Vorlesungen NU/Advanced NLP/nlp/target/test-classes:/Users/pbrune/Library/Mobile Documents/com~apple~CloudDocs/Vorlesungen NU/Advanced NLP/nlp/target/classes:/Users/pbrune/.m2/repository/org/slf4j/slf4j-api/2.0.7/slf4j-api-2.0.7.jar:/Users/pbrune/.m2/repository/org/slf4j/slf4j-simple/2.0.7/slf4j-simple-2.0.7.jar:/Users/pbrune/Library/Mobile Documents/com~apple~CloudDocs/Vorlesungen NU/Advanced NLP/nlp/src/resources/jiprolog-4.1.6.1.jar:/Users/pbrune/Library/Mobile Documents/com~apple~CloudDocs/Vorlesungen NU/Advanced NLP/nlp/src/resources/jep-4.1.1.jar:/Users/pbrune/.m2/repository/org/junit/jupiter/junit-jupiter-api/5.6.0/junit-jupiter-api-5.6.0.jar:/Users/pbrune/.m2/repository/org/apiguardian/apiguardian-api/1.1.0/apiguardian-api-1.1.0.jar:/Users/pbrune/.m2/repository/org/opentest4j/opentest4j/1.2.0/opentest4j-1.2.0.jar:/Users/pbrune/.m2/repository/org/junit/platform/junit-platform-commons/1.6.0/junit-platform-commons-1.6.0.jar:/Users/pbrune/.m2/repository/org/junit/jupiter/junit-jupiter-engine/5.6.0/junit-jupiter-engine-5.6.0.jar:/Users/pbrune/.m2/repository/org/junit/platform/junit-platform-engine/1.6.0/junit-platform-engine-1.6.0.jar:"/>
+    <property name="java.vm.vendor" value="Eclipse OpenJ9"/>
+    <property name="com.ibm.vm.bitmode" value="64"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="user.variant" value=""/>
+    <property name="com.ibm.oti.vm.library.version" value="29"/>
+    <property name="java.vendor.url" value="https://www.ibm.com/semeru-runtimes"/>
+    <property name="os.name" value="Mac OS X"/>
+    <property name="java.vm.specification.version" value="21"/>
+    <property name="user.country" value="DE"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="sun.boot.library.path" value="/Library/Java/JavaVirtualMachines/ibm-semeru-open-21.jdk/Contents/Home/lib/default:/Library/Java/JavaVirtualMachines/ibm-semeru-open-21.jdk/Contents/Home/lib"/>
+    <property name="sun.java.command" value="/Users/pbrune/Library/Mobile Documents/com~apple~CloudDocs/Vorlesungen NU/Advanced NLP/nlp/target/surefire/surefirebooter4765902513556632708.jar /Users/pbrune/Library/Mobile Documents/com~apple~CloudDocs/Vorlesungen NU/Advanced NLP/nlp/target/surefire 2024-04-03T13-29-15_914-jvmRun1 surefire17174801078149617850tmp surefire_02682027771062140985tmp"/>
+    <property name="surefire.test.class.path" value="/Users/pbrune/Library/Mobile Documents/com~apple~CloudDocs/Vorlesungen NU/Advanced NLP/nlp/target/test-classes:/Users/pbrune/Library/Mobile Documents/com~apple~CloudDocs/Vorlesungen NU/Advanced NLP/nlp/target/classes:/Users/pbrune/.m2/repository/org/slf4j/slf4j-api/2.0.7/slf4j-api-2.0.7.jar:/Users/pbrune/.m2/repository/org/slf4j/slf4j-simple/2.0.7/slf4j-simple-2.0.7.jar:/Users/pbrune/Library/Mobile Documents/com~apple~CloudDocs/Vorlesungen NU/Advanced NLP/nlp/src/resources/jiprolog-4.1.6.1.jar:/Users/pbrune/Library/Mobile Documents/com~apple~CloudDocs/Vorlesungen NU/Advanced NLP/nlp/src/resources/jep-4.1.1.jar:/Users/pbrune/.m2/repository/org/junit/jupiter/junit-jupiter-api/5.6.0/junit-jupiter-api-5.6.0.jar:/Users/pbrune/.m2/repository/org/apiguardian/apiguardian-api/1.1.0/apiguardian-api-1.1.0.jar:/Users/pbrune/.m2/repository/org/opentest4j/opentest4j/1.2.0/opentest4j-1.2.0.jar:/Users/pbrune/.m2/repository/org/junit/platform/junit-platform-commons/1.6.0/junit-platform-commons-1.6.0.jar:/Users/pbrune/.m2/repository/org/junit/jupiter/junit-jupiter-engine/5.6.0/junit-jupiter-engine-5.6.0.jar:/Users/pbrune/.m2/repository/org/junit/platform/junit-platform-engine/1.6.0/junit-platform-engine-1.6.0.jar:"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="user.home" value="/Users/pbrune"/>
+    <property name="user.language" value="de"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.version.date" value="2024-01-16"/>
+    <property name="java.home" value="/Library/Java/JavaVirtualMachines/ibm-semeru-open-21.jdk/Contents/Home"/>
+    <property name="ibm.signalhandling.rs" value="false"/>
+    <property name="openjdk.methodhandles" value="true"/>
+    <property name="jdk.extensions.name" value="Extensions for OpenJDK for Eclipse OpenJ9"/>
+    <property name="file.separator" value="/"/>
+    <property name="basedir" value="/Users/pbrune/Library/Mobile Documents/com~apple~CloudDocs/Vorlesungen NU/Advanced NLP/nlp"/>
+    <property name="line.separator" value="&#10;"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="com.ibm.util.extralibs.properties" value=""/>
+    <property name="java.awt.graphicsenv" value="sun.awt.CGraphicsEnvironment"/>
+    <property name="com.ibm.oti.configuration" value="scar"/>
+    <property name="apple.awt.application.name" value="ForkedBooter"/>
+    <property name="surefire.real.class.path" value="/Users/pbrune/Library/Mobile Documents/com~apple~CloudDocs/Vorlesungen NU/Advanced NLP/nlp/target/surefire/surefirebooter4765902513556632708.jar"/>
+    <property name="com.ibm.oti.shared.enabled" value="false"/>
+    <property name="com.ibm.oti.vm.bootstrap.library.path" value="/Library/Java/JavaVirtualMachines/ibm-semeru-open-21.jdk/Contents/Home/lib/default:/Library/Java/JavaVirtualMachines/ibm-semeru-open-21.jdk/Contents/Home/lib"/>
+    <property name="com.ibm.cpu.endian" value="little"/>
+    <property name="java.fullversion" value="21.0.2+13-LTS&#10;JRE 21 Mac OS X aarch64-64-Bit 20240116_96 (JIT enabled, AOT enabled)&#10;OpenJ9   - 2c3d78b48&#10;OMR      - ea8124dbc&#10;JCL      - 78c4500a434 based on jdk-21.0.2+13"/>
+    <property name="java.runtime.version" value="21.0.2+13-LTS"/>
+    <property name="user.name" value="pbrune"/>
+    <property name="stdout.encoding" value="UTF-8"/>
+    <property name="path.separator" value=":"/>
+    <property name="os.version" value="14.2.1"/>
+    <property name="java.runtime.name" value="IBM Semeru Runtime Open Edition"/>
+    <property name="ibm.signalhandling.sigint" value="true"/>
+    <property name="file.encoding" value="UTF-8"/>
+    <property name="openj9.compiler" value="j9jit29"/>
+    <property name="java.vm.name" value="Eclipse OpenJ9 VM"/>
+    <property name="java.vendor.version" value="21.0.2.0"/>
+    <property name="ibm.signalhandling.sigchain" value="true"/>
+    <property name="localRepository" value="/Users/pbrune/.m2/repository"/>
+    <property name="java.vendor.url.bug" value="https://github.com/ibmruntimes/Semeru-Runtimes/issues"/>
+    <property name="java.io.tmpdir" value="/var/folders/jg/x08d4ntd20764sbpfsyd7l_40000gn/T/"/>
+    <property name="java.version" value="21.0.2"/>
+    <property name="com.ibm.system.agent.path" value="/Library/Java/JavaVirtualMachines/ibm-semeru-open-21.jdk/Contents/Home/lib"/>
+    <property name="user.dir" value="/Users/pbrune/Library/Mobile Documents/com~apple~CloudDocs/Vorlesungen NU/Advanced NLP/nlp"/>
+    <property name="os.arch" value="aarch64"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="java.awt.printerjob" value="sun.lwawt.macosx.CPrinterJob"/>
+    <property name="os.encoding" value="UTF-8"/>
+    <property name="native.encoding" value="UTF-8"/>
+    <property name="java.library.path" value="/Library/Java/JavaVirtualMachines/ibm-semeru-open-21.jdk/Contents/Home/lib/default:/Library/Java/JavaVirtualMachines/ibm-semeru-open-21.jdk/Contents/Home/lib:/usr/lib"/>
+    <property name="java.vm.info" value="JRE 21 Mac OS X aarch64-64-Bit 20240116_96 (JIT enabled, AOT enabled)&#10;OpenJ9   - 2c3d78b48&#10;OMR      - ea8124dbc&#10;JCL      - 78c4500a434 based on jdk-21.0.2+13"/>
+    <property name="java.vendor" value="IBM Corporation"/>
+    <property name="stderr.encoding" value="UTF-8"/>
+    <property name="java.vm.version" value="openj9-0.43.0"/>
+    <property name="ibm.system.encoding" value="UTF-8"/>
+    <property name="com.ibm.jcl.checkClassPath" value=""/>
+    <property name="java.lang.invoke.VarHandle.VAR_HANDLE_GUARDS" value="false"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
+    <property name="java.class.version" value="65.0"/>
+  </properties>
+  <testcase name="testApp" classname="de.hnu.nlp.AppTest" time="0.012"/>
+</testsuite>
